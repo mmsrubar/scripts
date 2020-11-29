@@ -1,0 +1,18 @@
+interface Vlan11
+ description surgery
+ mtu 9216
+ ip address 192.168.19.254 255.255.255.192
+  
+interface Vlan23
+ mtu 9216
+ ip address 192.168.23.254 255.255.255.0
+ 
+interface Vlan24
+ description phones
+ mtu 9216
+ ip dhcp relay information trusted
+ ip address 192.168.24.254 255.255.255.0
+ 
+interface Vlan101
+ description Aironet
+ ip address 192.168.45.254 255.255.255.0
